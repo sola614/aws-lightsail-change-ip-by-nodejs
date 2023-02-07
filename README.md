@@ -4,7 +4,7 @@ nodejs端使用aws lightsail sdk定时检查ip，如果被阻断则自动更换�
 1、安装nodejs环境和pm2命令(这里用nvm来进行安装管理nodejs)
 ```
 wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh
-重启
+reboot
 nvm install 16
 npm i pm2 -g
 ```
