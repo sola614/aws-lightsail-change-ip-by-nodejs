@@ -17,5 +17,5 @@ git clone https://github.com/sola614/aws-lightsail-change-ip.git
 npm run build
 ```
 ## 注意
-1、自行申请aws的credentials填入index对应位置  
+1、自行[申请](https://console.aws.amazon.com/iam/home?region=ap-northeast-1#/security_credentials)aws的credentials填入index对应位置  
 2、部署在国内服务器上才能有效检测ip连通性
