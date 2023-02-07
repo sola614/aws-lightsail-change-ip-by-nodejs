@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-lightsail": "^3.264.0"
+  },
+  "name": "aws-lightsail-change-ip",
+  "version": "1.0.0",
+  "description": "use aws lightsail SDK change server ip",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "npm i  && pm2 start index.js -n aws-lightsail-change-ip --log-date-format=\"YYYY-MM-DD HH:mm:ss\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sola614/aws-lightsail-change-ip.git"
+  },
+  "author": "sola.zhang",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "nodemon": "2.0.20"
+  }
+}
