@@ -12,7 +12,7 @@ npm i pm2 -g
 ```
 git clone https://github.com/sola614/aws-lightsail-change-ip.git
 ```
-3、运行
+3、修改index.js里的credentials信息即可运行
 ```
 npm run build
 ```
