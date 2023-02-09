@@ -1,4 +1,4 @@
-# aws-lightsail-change-ip
+# aws-lightsail-change-ip-by-nodejs
 nodejs端使用aws lightsail sdk定时检查ip，如果被阻断则自动更换，请部署在国内，放在国外无法批量检测
 ## 使用
 1、安装nodejs环境和pm2命令(这里用nvm来进行安装管理nodejs)
