@@ -153,6 +153,9 @@ async function attachStaticIp(client, server) {
   console.log("绑定新ip成功！");
 }
 async function sendMsgByServerChan() {
+   if (!serverChanToken) {
+    return;
+  }
   request({
     method: "POST",
     url: `https://sctapi.ftqq.com/${serverChanToken}.send`,
