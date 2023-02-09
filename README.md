@@ -1,5 +1,5 @@
 # aws-lightsail-change-ip-by-nodejs
-使用(AWSJavaScriptSDK)[https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-lightsail/index.html]定时获取lightSail实例检查ip状态，如果被阻断则自动更换，请部署在国内，放在国外无法批量检测
+使用[@aws-sdk/client-lightsail](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-lightsail/index.html)定时获取lightSail实例检查ip状态，如果被阻断则自动更换，请部署在国内，放在国外无法批量检测
 ## 使用
 1、安装nodejs环境和pm2命令(这里用nvm来进行安装管理nodejs)
 ```
